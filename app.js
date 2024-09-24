@@ -36,7 +36,7 @@ app.use('/', videoRoutes);
 
 // Servir a página de login como página inicial
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname,  './public/Cadastro.html'));
+    res.sendFile(path.join(__dirname, 'public', 'Cadastro.html'));
 });
 
 // Iniciar o servidor
