@@ -35,9 +35,9 @@ app.use('/', placaRoutes); // Rotas para cadastro de placas e relatórios
 app.use('/', videoRoutes);
 
 // Servir a página de login como página inicial
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'Cadastro.html'));
-});
+//app.get('/', (req, res) => {
+  //  res.sendFile(path.join(__dirname, 'public', 'Cadastro.html'));
+//});
 
 // Iniciar o servidor
 const PORT = process.env.PORT || 3000;

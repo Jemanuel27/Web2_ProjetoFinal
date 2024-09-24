@@ -1,20 +1,19 @@
-
-  {
-    "version": 2,
-    "builds": [
-        {
-            "src": "app.js",
-            "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/",
-            "dest": "/public/cadastro.html"
-        },
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1" 
-    }
+{
+  "version": 2,
+  "builds": [
+      {
+          "src": "./app.js",
+          "use": "@vercel/node"
+      }
+  ],
+  "routes": [
+      {
+          "src": "/",
+          "dest": "/public/Cadastro.html" 
+      },
+      {
+          "src": "/api/(.*)",
+          "dest": "/api/$1" 
+      }
   ]
 }
