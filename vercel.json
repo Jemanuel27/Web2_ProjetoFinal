@@ -11,6 +11,10 @@
         {
             "src": "/",
             "dest": "/public/cadastro.html"
-        }
-    ]
+        };
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1" // Se você tiver rotas de API
     }
+  ]
+}
