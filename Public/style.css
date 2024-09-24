@@ -1,0 +1,71 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos do formulário em coluna */
+    align-items: center; /* Centraliza os campos no meio do formulário */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo dos rótulos */
+label {
+    font-weight: bold;
+    color: #333;
+    width: 100%; /* Faz o label ocupar 100% da largura */
+}
+
+/* Estilo dos campos de entrada */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Estilo do botão */
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
