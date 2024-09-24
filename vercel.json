@@ -14,7 +14,7 @@
         },
     {
       "src": "/api/(.*)",
-      "dest": "/api/$1" // Se você tiver rotas de API
+      "dest": "/api/$1" 
     }
   ]
 }
